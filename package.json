@@ -2,8 +2,9 @@
   "name": "fccrouge",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/DaBubbla/FCC-Rogue"
+  "homepage": "https://dabubbla.github.io/FCC-Rogue/",
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.14"
