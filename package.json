@@ -1,15 +1,21 @@
 {
-  "name": "fccrouge",
+  "name": "fccdungeness",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://dabubbla.github.io/FCC-Rogue/",
   "dependencies": {
     "create-react-app": "^1.4.1",
     "gh-pages": "^1.0.0",
+    "lodash": "^4.17.4",
+    "lodash.min": "^4.0.1",
     "react": "^16.0.0",
     "react-bootstrap": "^0.31.5",
     "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
     "react-scripts": "1.0.14",
+    "redux": "^3.7.2",
+    "redux-payload": "^0.1.5",
+    "redux-reuse": "^0.4.3",
     "sass": "^1.0.0-beta.2"
   },
   "scripts": {

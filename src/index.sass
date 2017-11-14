@@ -1,58 +1,47 @@
+$background-color: #2D2D2D
+$floor: #d6d1d1
+$door: red
 
-#app
-  background-color: #636363 ;
+$enemy: #8ce114
+$weapon: #f3f70c
+$potion: #ff0000
+$player: #fc8d8d
+$exit: #00b9f1
+$boss: #c447e0
 
-#root
-  background: #636363;
-
+.app
+  display: flex
+  justify-content: center
 
 .row
-    margin: 0 auto;
-    max-width: 1000px;
-    width: 100%;
-    display: flex;
-    right: 0;
-    text-align: center;
-    flex-wrap: wrap;
+  display: flex
+  justify-content: center
+  color: red
 
+.flex-container
+  border: 1px solid rgba(0,0,0,.2)
+  background-color: $background-color
 
-.left
-    display: inline-block;
-    text-align: left;
+.cell
+  height: 1em
+  width: 1em
+  border: 1px solid black
+  background: #78d376
 
+.floor
+  background: $floor
+  border: 1px solid lighten($floor, 2%)
 
-.right
-    display: inline-block;
-    text-align: right;
+.door
+  background: $door
 
+.enemy
+  background: $enemy
+  border: 1px solid lighten($enemy, 2%)
 
-.center
-    display: inline-block;
-    margin: 500px auto;
+.player
+  background: $player
 
-.col-4
-    width: 33.33%;
-
-
-input
-  margin-left: 5px;
-
-
-.grid
-  margin: .5em auto;
-
-
-td
-  min-width: 2em;
-  width: 2em;
-  height: 2em;
-  text-align: center;
-  bottom-padding: 0 ;
-
-.wall
-  background: black;
-  bottom-padding: 0 ;
-
-
-.tunnel
-  background: gray;
+.exits
+  background: $exit
+  border: 1px solid lighten($exit, 2%)
